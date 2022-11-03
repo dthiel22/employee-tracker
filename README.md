@@ -36,7 +36,15 @@ npm install fs
 
 ![image showing the obve description](./Assets/IMG3.JPG)
 
-- When creating any of them, fill out the criteria asked. The table can be reviewed to see the new information added. If 'Quit' is selected, the program will state 'thanks for using this application!'. The terminal can then be trashed.
+- a viewed section looks like the following in a table format
+
+![image showing the obve description](./Assets/IMG5.JPG)
+
+- a create prompt asks questions that you fill out. Once filled out, viewing the table allows you to see the changes
+
+![image showing the obve description](./Assets/IMG6.JPG)
+
+- If 'Quit' is selected, the program will state 'thanks for using this application!'. The terminal can then be trashed.
 
 ![image showing the obve description](./Assets/IMG4.JPG)
 
