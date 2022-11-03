@@ -24,30 +24,28 @@ npm install fs
 
 ## Usage
 
-- To start, open the integrated terminal and input node index.js. When inpuptted, the first console.log will state "To begin making your employee front page, we will start with your manager". Answer each by inputting an answer and hitting ENTER when the question is answer.
+- To start, open the integrated terminal and start mysql by inputting your password.
 
 ![image showing the obve description](./Assets/IMG1.JPG)
 
-- After the manager info has been placed, you can select to add either an engineer or an intern.
+- run the schema.sql and seed.sql to use the database, generate the table, and seed the data.
 
 ![image showing the obve description](./Assets/IMG2.JPG)
 
-- When either is selected, answer the prompts. Once finished, you can add another employee, or quit
+- exit out of mysql and start node index.js. A prompt will begin that allows you to view and create departments, roles, or employees
 
 ![image showing the obve description](./Assets/IMG3.JPG)
 
-- If 'Quit' is selected, the program will state 'thanks for using this application!' and "Worked!" to state that the index.html files has been made with the information inputted in the field.
+- When creating any of them, fill out the criteria asked. The table can be reviewed to see the new information added. If 'Quit' is selected, the program will state 'thanks for using this application!'. The terminal can then be trashed.
 
 ![image showing the obve description](./Assets/IMG4.JPG)
 
-- Viewing the html page, we can see that the following information had been saved to the index.html file. There are hyperlinks to open your default email app when emails are clicked and engineer's github accounts are linked to the page as well.
-
-![image showing the obve description](./Assets/IMG5.JPG)
-
-- Refer to the [video](https://drive.google.com/file/d/1XDyyw-4Jhcy7HBomuoFSEDnIXYGTpFTK/view) to see the program step by step.
-
-- See the file EXAMPLE.html to see a file made with the program.
+- Refer to the [video](https://drive.google.com/file/d/1XDyyw-4Jhcy7HBomuoFSEDnIXYGTpFTK/view) to see the program step by step and how each function works.
 
 # Test
 
 Feel free to run the program as many times as you want trying different inputs. Just know for everytime the program runs, the original file will be overwritten if it is not re-named.
+
+# Future Implimentations
+
+The goal would be to select a department, role, and employee name to change. However, sense the primary key was linked to the id's of each one, it would require more indepth query's in JS. 
